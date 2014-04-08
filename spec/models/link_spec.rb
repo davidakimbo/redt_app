@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 describe Link do
-link = Link.create!({
-  :url => "http://www.reddit.com",
+link = Link.new({
+  :url => "http://www.digg.com",
   :user_id => 3
   })
 
